@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <title>New Web Project</title>
+    </head>
+    <body>
+	    <div id="login">
+	    	You are logged in as: .....
+	    	<a href="#logout">(Logout)</a>    
+		</div>
+		    	
+	    <div id="banner">
+	    	<!-- Here's a box for the banner -->
+	    	<!-- Add logo here somewhere -->
+	    	<span class="title"><b>INFOGATE</b></span>
+	    	<br />
+	    	<span class="subtitle">Education Portal</span>    	
+	    </div>
+	        
+		<nav id="menu1">
+		    <ul>
+		        <li><a href="item-one.html" id="current">Category 1</a>
+		
+		        </li>
+		        <li><a href="menu-item-two.html">Menu item 1</a>
+		
+		        </li>
+		        <li><a href="#">Menu Item 2</a>
+		
+		        </li>
+		        <li><a href="services.html">Services</a>
+		
+		        </li>
+		        <li><a href="#" class="linkHelp">Contact</a>
+		
+		        </li>	       
+		    </ul>
+		    <ul>
+		        <li><a href="item-one.html" id="current">Category 2</a>
+		
+		        </li>
+		        <li><a href="menu-item-two.html">Menu item 1</a>
+		
+		        </li>
+		        <li><a href="#">Menu Item 2</a>
+		
+		        </li>
+		        <li><a href="services.html">Services</a>
+		
+		        </li>
+		        <li><a href="#" class="linkHelp">Contact</a>
+		
+		        </li>
+		    </ul>
+		</nav>
+		<div id="main">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut enim
+		        et metus rutrum blandit vel quis purus. Aliquam sit amet dignissim est.
+		        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+		        ridiculus mus. Aliquam eget neque sed dolor ultricies adipiscing. Phasellus
+		        sed consectetur lorem. Proin euismod risus ac nunc bibendum lacinia. Nam
+		        scelerisque arcu ac nulla elementum commodo. Maecenas eleifend velit et
+		        nunc lobortis iaculis. Nam nec dolor nibh, nec rutrum ante. Suspendisse
+		        congue ultrices tincidunt. Donec egestas, ante blandit feugiat euismod,
+		        ante diam consectetur sem, venenatis ultricies eros tellus eu nunc. Nullam
+		        eget tellus sem. Vivamus imperdiet accumsan quam volutpat consequat. Donec
+		        volutpat tortor eget ipsum sollicitudin quis tincidunt arcu elementum.
+		        Fusce quam felis, porta sit amet condimentum ac, tristique ullamcorper
+		        elit. Quisque sed turpis ligula.</p>
+		    <p>Nam sed ipsum id mauris venenatis pretium. Quisque nec tortor dolor, a
+		        condimentum elit. Cum sociis natoque penatibus et magnis dis parturient
+		        montes, nascetur ridiculus mus. Phasellus sed turpis tortor. Suspendisse
+		        potenti. Nam eu massa sem. Integer tempor ipsum ut eros venenatis fermentum.
+		        Praesent et mauris turpis. Vestibulum lacinia, odio quis facilisis rutrum,
+		        diam nibh elementum turpis, in lacinia tortor tortor eu ipsum.</p>
+		    <p>Donec quis diam non orci venenatis bibendum eu at leo. Praesent commodo
+		        augue quis augue semper eu ultrices mi vehicula. Maecenas auctor vehicula
+		        tristique. Maecenas congue mi non neque lacinia convallis id vitae libero.
+		        Morbi condimentum, lorem a pulvinar viverra, risus nisl rhoncus mauris,
+		        id rhoncus libero lorem non arcu. Vivamus nec luctus arcu. Ut vel tempor
+		        felis. In ac mi ligula, a egestas tortor. Aliquam sit amet augue id lacus
+		        vestibulum hendrerit nec eu odio.</p>
+		</div>    
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>    	
+    	<script>
+    		$(document).ready(function(){
+	    		$('#banner').click(function(){
+	    			alert("div clicked");
+	    		});
+	    		$(".linkHelp").click(function(){
+	    			$("#main").load("info.html");	
+	    		});
+	    	});
+    	</script>
+    </body>
+</html>
