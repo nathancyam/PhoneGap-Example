@@ -8,7 +8,7 @@ body{
 	display:block;
 	height: 100%;
 	padding:40px;
-	margin-bottom:10px;
+    margin-bottom: 10px;
 	background: #0084ed;
 	vertical-align:middle;
 	font-family: Arial, Helvetica, sans-serif;
@@ -29,6 +29,27 @@ body{
 
 /*==============================================*/
 
+.topic{
+    display: block;
+    height: 100%;
+    padding: 10px;
+}
+
+.topic .topic_banner{
+    padding:10px;
+    margin-bottom:5px;
+    background: #0084ed;
+    vertical-align:middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topic_banner #title{
+    font-size: 20px;    
+}
+.topic_banner #subtitle{
+    font-size: 16px;    
+}
+
+/*==============================================*/
 .navMenu {
     width: 200px;
     display: block;
