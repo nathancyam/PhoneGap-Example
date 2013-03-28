@@ -1,30 +1,33 @@
 body{
-	background: #d7d7dc;
+    background: #d7d7dc;
 }
 
 /*==============================================*/
 
-#banner {		
-	display:block;
-	height: 100%;
-	padding:40px;
+#banner {
+    display:block;
+    height: 100%;
+    padding:40px;
     margin-bottom: 10px;
-	background: #0084ed;
-	vertical-align:middle;
-	font-family: Arial, Helvetica, sans-serif;
+    background: #0084ed;
+    vertical-align:middle;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #banner .title{	
-	font-size: 36px;	
+    font-size: 36px;	
 }
 #banner .subtitle{
-	font-size:18px;
+    font-size:18px;
 }
+
+/*==============================================*/
+
 #login{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:12px;
-	padding: 10px;
-	float:right;
-	overflow: hidden;	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding: 10px;
+    float:right;
+    overflow: hidden;
 }
 
 /*==============================================*/
@@ -33,6 +36,7 @@ body{
     display: block;
     height: 100%;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topic .topic_banner{
@@ -40,16 +44,52 @@ body{
     margin-bottom:5px;
     background: #0084ed;
     vertical-align:middle;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .topic_banner #title{
-    font-size: 20px;    
+    font-size: 20px;
+    font-weight:bold;
 }
 .topic_banner #subtitle{
-    font-size: 16px;    
+    font-size: 16px;
+}
+
+.topic .topic_user{
+    padding:15px;
+}
+
+.topic .topic_content{
+    padding:15px;
+    vertical-align:middle;
+}
+.topic_content #title{
+    font-weight:bold;
+}
+.topic_content #content{
+    //Empty for now
 }
 
 /*==============================================*/
+
+.unit{
+    display: block;
+    height: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.unit #unit_logo{
+    margin:auto;
+}
+.unit #title{
+    font-size: 24px;
+    font-weight:bold;
+}
+.unit #content{
+    padding:15px;
+    vertical-align:middle;
+}
+
+/*==============================================*/
+
 .navMenu {
     width: 200px;
     display: block;
@@ -63,10 +103,10 @@ body{
     width: 160px;
 }
 .navMenu .navHeader{
-	font-size: 16px;
-	font-weight:bold;
-	padding: 5px;
-	background-color: #00BEE4;
+    font-size: 16px;
+    font-weight:bold;
+    padding: 5px;
+    background-color: #00BEE4;
 }
 .navMenu ul {
     list-style-type:none;
